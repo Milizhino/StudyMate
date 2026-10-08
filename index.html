@@ -1,0 +1,157 @@
+<<!DOCTYPE html>
+<html lang="hr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>StudyMate</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: #0f172a;
+            color: white;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .container {
+            width: 90%;
+            max-width: 800px;
+            background: #1e293b;
+            padding: 35px;
+            border-radius: 20px;
+            box-shadow: 0 20px 50px rgba(0, 0, 0, 0.4);
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 36px;
+            margin-bottom: 10px;
+        }
+
+        .subtitle {
+            text-align: center;
+            color: #94a3b8;
+            margin-bottom: 30px;
+        }
+
+        textarea {
+            width: 100%;
+            padding: 18px;
+            border-radius: 12px;
+            border: 2px solid #334155;
+            background: #0f172a;
+            color: white;
+            font-size: 16px;
+            resize: vertical;
+            outline: none;
+        }
+
+        textarea:focus {
+            border-color: #6366f1;
+        }
+
+        .buttons {
+            display: flex;
+            gap: 10px;
+            margin-top: 15px;
+        }
+
+        button {
+            flex: 1;
+            padding: 14px;
+            border: none;
+            border-radius: 10px;
+            font-size: 16px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        #askButton {
+            background: #6366f1;
+            color: white;
+        }
+
+        #imageButton {
+            background: #334155;
+            color: white;
+        }
+
+        button:hover {
+            opacity: 0.85;
+        }
+
+        #answer {
+            margin-top: 25px;
+            padding: 20px;
+            background: #0f172a;
+            border-radius: 12px;
+            min-height: 80px;
+            color: #cbd5e1;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>🎓 StudyMate</h1>
+
+        <p class="subtitle">
+            Tvoj AI pomoćnik za učenje
+        </p>
+
+        <textarea
+            id="question"
+            placeholder="Napiši pitanje ili zadatak..."
+            rows="6"></textarea>
+
+        <div class="buttons">
+            <button id="askButton">
+                ✨ Pošalji pitanje
+            </button>
+
+            <button id="imageButton">
+                📷 Dodaj sliku
+            </button>
+        </div>
+
+        <div id="answer">
+            <p>Odgovor će se pojaviti ovdje.</p>
+        </div>
+
+    </div>
+
+    <script>
+        const question = document.getElementById("question");
+        const askButton = document.getElementById("askButton");
+        const answer = document.getElementById("answer");
+
+        askButton.addEventListener("click", function() {
+            const text = question.value;
+
+            if (text.trim() === "") {
+                answer.innerHTML = "<p>Napiši prvo pitanje.</p>";
+                return;
+            }
+
+            if (text.toLowerCase().includes("2+2")) {
+                answer.innerHTML = "<p>Odgovor je <strong>4</strong> 🎉</p>";
+            } else {
+                answer.innerHTML = "<p>Primio sam tvoje pitanje: " + text + "</p>";
+            }
+        });
+    </script>
+
+</body>
+</html>

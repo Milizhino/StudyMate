@@ -1,0 +1,92 @@
+[
+    {
+        "pitanje": "Koje je najčešće vrsta motora u modernim automobilima?",
+        "odgovori": [
+            "Električni motor",
+            "Unutarnji izgaralni motor",
+            "Hibridni motor",
+            "Vodni motor"
+        ],
+        "tocni_odgovor": "Unutarnji izgaralni motor"
+    },
+    {
+        "pitanje": "Koji komponenta automobila pretvara mehaničku energiju u električnu?",
+        "odgovori": [
+            "Alternator",
+            "Generatorski motor",
+            "Baterija",
+            "Diferencijal"
+        ],
+        "tocni_odgovor": "Alternator"
+    },
+    {
+        "pitanje": "Koja je prva masovno proizvedena automobilna model?",
+        "odgovori": [
+            "Ford Model T",
+            "Benz Patent-Motorwagen",
+            "Toyota Corolla",
+            "Volkswagen Beetle"
+        ],
+        "tocni_odgovor": "Ford Model T"
+    },
+    {
+        "pitanje": "Koji komponenta prenosi snagu iz motora na točke?",
+        "odgovori": [
+            "Vodilica",
+            "Premještanje",
+            "Vodilica snaga",
+            "Diferencijal"
+        ],
+        "tocni_odgovor": "Vodilica snaga"
+    },
+    {
+        "pitanje": "Što je kamion?",
+        "odgovori": [
+            "Vozilo za prevoz putnika",
+            "Vozilo za prevoz robe",
+            "Vozilo za prevoz vožnje",
+            "Vozilo za prevoz vožnje"
+        ],
+        "tocni_odgovor": "Vozilo za prevoz robe"
+    },
+    {
+        "pitanje": "Koje je osnovno dijelovi kamiona?",
+        "odgovori": [
+            "Kotac",
+            "Vrata",
+            "Kupola",
+            "Kadrova"
+        ],
+        "tocni_odgovor": "Kadrova"
+    },
+    {
+        "pitanje": "Koje je vrsta kamiona koji se koristi za prevoz velikih količina robe?",
+        "odgovori": [
+            "Kamion s prikolicom",
+            "Kamion s krovom",
+            "Kamion s kotačima",
+            "Kamion s prikolnicom"
+        ],
+        "tocni_odgovor": "Kamion s prikolicom"
+    },
+    {
+        "pitanje": "Koje je sigurnosno uređaj kamiona koji se koristi za zaustavljanje?",
+        "odgovori": [
+            "Vodeni hidraulik",
+            "Vrata",
+            "Zrakoplovna hidraulika",
+            "Zrakoplovni hidraulik"
+        ],
+        "tocni_odgovor": "Zrakoplovni hidraulik"
+    },
+    {
+        "pitanje": "Koliko toni može nositi standardni kamion?",
+        "odgovori": [
+            "10 toni",
+            "20 toni",
+            "30 toni",
+            "40 toni"
+        ],
+        "tocni_odgovor": "40 toni"
+    }
+]

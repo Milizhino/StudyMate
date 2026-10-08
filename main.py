@@ -1,0 +1,1 @@
+print("StudyMate radi!")
