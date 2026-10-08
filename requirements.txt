@@ -1,0 +1,5 @@
+streamlit
+requests
+bcrypt
+pypdf
+opencv-python-headless
